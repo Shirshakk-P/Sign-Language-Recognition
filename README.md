@@ -17,6 +17,5 @@ This repository contains the CNN model trained to recognise Sign Language Gestur
 
 Authors:
 
-
-SHIRSHAKK PURKAYASTHA 
-TANISHQ KUMAR BASWAL
+    SHIRSHAKK PURKAYASTHA 
+    TANISHQ KUMAR BASWAL
