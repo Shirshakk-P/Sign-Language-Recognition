@@ -1,0 +1,49 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+
+# Sign Language Recognition using Support Vector Machine
+
+#Importing the Libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from keras.utils import to_categorical
+from sklearn.model_selection import train_test_split
+from sklearn import svm
+from sklearn.metrics import accuracy_score
+from sklearn.preprocessing import StandardScaler
+
+
+
+df = pd.read_csv('/home/shark_p/Downloads/all/ASL_train.csv')
+print(df.shape)
+df.head()
+
+
+X = df.iloc[0:,1:].values
+X = X/225
+X
+
+
+Y = df.iloc[0:,0].values
+Y
+
+
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.3, random_state = 10000)
+
+
+
+scalar = StandardScaler()
+X_train = scalar.fit_transform(X_train)
+X_test = scalar.transform(X_test)
+
+
+#Building the Support Vector Machine:
+supportvector = svm.SVC(gamma = 0.1, C = 1000)
+supportvector.fit(X_train, y_train)
+
+#Accuracy of the SVM Model:
+support_pred = supportvector.predict(X_test)
+support_accuracy = accuracy_score(y_test, support_pred)
+print(support_accuracy)
