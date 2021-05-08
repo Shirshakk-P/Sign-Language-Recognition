@@ -27,8 +27,8 @@ Models:
 
 Dataset Vitals:
 
-        # Number of Features = 
-        # Number of Classes =
+        # Number of Features = 784
+        # Number of Classes = 24
 
 Comparision of the Model Accuracies:
 
