@@ -1,5 +1,5 @@
 # Sign-Language-Recognition
-This repository contains the several models trained to recognise Sign Language Characters.
+This repository contains the several models trained to recognise Sign Language Characters. <br />
 Submission for ECS 308: Data Science-Machine Learning Final Project.<br />
 
 
