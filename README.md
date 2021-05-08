@@ -7,10 +7,12 @@ Environment:
 
         python-3
         numpy
+        matplotlib
+        keras
         pandas
+        seaborn
         scikit-learn
         tensorflow
-        keras
 
 
 Models:
