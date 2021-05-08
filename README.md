@@ -23,7 +23,9 @@ Models:
         4. Random Forest
         5. Neural Networks (ANN, CNN)
 
+Overview of the respective signs:<br />
 
+![aslr](https://user-images.githubusercontent.com/32801148/117553139-65285d00-b06d-11eb-9bb9-28a2393e68c0.PNG)
 
 Dataset Vitals:
 
