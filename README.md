@@ -39,6 +39,8 @@ Dataset Vitals:
 
 Comparision of the Model Accuracies:
 
+![model-acc](https://user-images.githubusercontent.com/32801148/117568712-80cc4b80-b0df-11eb-9cf1-f998343c7b2d.png)
+
 Authors:
 
     SHIRSHAKK PURKAYASTHA (EECS)
