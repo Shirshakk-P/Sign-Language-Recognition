@@ -27,6 +27,9 @@ Overview of the respective signs:<br />
 
 ![aslr](https://user-images.githubusercontent.com/32801148/117553139-65285d00-b06d-11eb-9bb9-28a2393e68c0.PNG)
 
+American Sign Language Dataset:<br />
+[https://www.massey.ac.nz/~albarcza/gesture_dataset2012.html](https://www.massey.ac.nz/~albarcza/gesture_dataset2012.html)
+
 Dataset in CSV-format:<br />
 
 [https://www.mediafire.com/folder/4g3hfsh1egx6m/csv-dataset](https://www.mediafire.com/folder/4g3hfsh1egx6m/csv-dataset)
