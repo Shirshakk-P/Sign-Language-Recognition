@@ -35,7 +35,7 @@ CSV Dataset:<br />
 Dataset Vitals:
 
         # Number of Features = 784
-        # Number of Classes = 24
+        # Number of Classes = 25 (0-24)
 
 Comparision of the Model Accuracies:
 
