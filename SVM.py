@@ -30,7 +30,7 @@ Y = df.iloc[0:,0].values
 Y
 
 
-X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.3, random_state = 10000)
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.3, random_state = 50)
 
 
 
@@ -40,7 +40,7 @@ X_test = scalar.transform(X_test)
 
 
 #Building the Support Vector Machine:
-supportvector = svm.SVC(gamma = 0.1, C = 1000)
+supportvector = svm.SVC(gamma = 0.001, C = 1000, decision_function_shape='ovo', random_state = 100)
 supportvector.fit(X_train, y_train)
 
 #Accuracy of the SVM Model:
