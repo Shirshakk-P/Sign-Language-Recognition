@@ -63,11 +63,5 @@ plt.plot(h.history['accuracy'])
 plt.title('Model accuracy')
 plt.show()
 
-
-#Plot for Model Loss
-plt.plot(h.history['loss'])
-plt.title('Model Loss')
-plt.show()
-
 #Acuuracy of the ANN Model:
 ['accuracy']
