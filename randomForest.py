@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
 
-data=pd.read_csv('/home/shark_p/Downloads/all/sign_mnist_train.csv');
+data=pd.read_csv('/home/shark_p/Downloads/all/ASL_train.csv');
 
 #Dataset Info:
 df_x = data.iloc[:,1:];
